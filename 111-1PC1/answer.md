@@ -22,13 +22,13 @@
 還需使用語法` ```csharp 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
-public partial class Test : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
+    public partial class Test : System.Web.UI.Page
         {
-            Response.Write("Hello App");
+            protected void Page_Load(object sender, EventArgs e)
+            {
+                Response.Write("Hello App");
+            }
         }
-    }
 
 若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
 下段程式碼則為使用後結果：
